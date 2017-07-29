@@ -105,7 +105,7 @@ ol, ul {
 hr {
   border: 0;
   border-top: 1px solid $border-color;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #border-color;
   margin: 1em 0;
 }
 a {
@@ -120,6 +120,10 @@ a {
 // Responsive media
 iframe, img, embed, object, video {
   max-width: 100%;
+  display: block;
+  border: 1px solid $border-color;
+  margin-left: auto;
+  margin-right: auto;
 }
 img[align=left] {
   margin-right: 3%;

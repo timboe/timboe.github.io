@@ -15,7 +15,7 @@
 // Post listing
 .posts {
   .post-teaser {
-    @extend %padding-regular;
+    padding: 1% 10%;
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
@@ -39,4 +39,11 @@
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
   text-align: center;
+}
+.twt_wrap {
+  text-align: center;
+  padding: 5% 0%
+}
+.twt_wrap > iframe {
+  margin: auto;
 }
