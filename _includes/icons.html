@@ -70,6 +70,14 @@
 </li>
 {% endif %}
 
+{% if site.theme_settings.inspire %}
+<li>
+	<a href="https://inspirehep.net/author/profile/{{ site.theme_settings.inspire }}" title="{{ site.theme_settings.str_follow_on }} INSPIRE">
+		<i class="fa fa-fw fa-university"></i>
+	</a>
+</li>
+{% endif %}
+
 {% if site.theme_settings.instagram %}
 <li>
 	<a href="http://instagram.com/{{ site.theme_settings.instagram }}" title="{{ site.theme_settings.str_follow_on }} Instagram">
