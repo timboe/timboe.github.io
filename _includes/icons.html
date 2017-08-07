@@ -62,6 +62,14 @@
 </li>
 {% endif %}
 
+{% if site.theme_settings.gitlab %}
+<li>
+	<a href="{{ site.theme_settings.gitlab }}" title="{{ site.theme_settings.str_follow_on }} GitLab">
+		<i class="fa fa-fw fa-gitlab"></i>
+	</a>
+</li>
+{% endif %}
+
 {% if site.theme_settings.google_plus %}
 <li>
 	<a href="https://plus.google.com/{{ site.theme_settings.google_plus }}" title="{{ site.theme_settings.str_follow_on }} Google+">
