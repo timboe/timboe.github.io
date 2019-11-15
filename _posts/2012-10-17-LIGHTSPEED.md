@@ -2,9 +2,12 @@
 layout: post
 title: LIGHTSPEED
 feature-img: "img/header_03.jpg"
+youtubeId: "SWf2_FAGfVw"
 ---
 
 > LIGHTSPEED is a remake of the classic game Asteroids with most of the fun replaced with science!
+
+{% include tube.html id=page.youtubeId %}
 
 ## Playing the Game
 

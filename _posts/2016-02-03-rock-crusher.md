@@ -2,17 +2,20 @@
 layout: post
 title: Rock Crusher
 feature-img: "img/header_02.jpg"
+youtubeId: "PPmxgHiNYHc"
 ---
 
 > Rock Crusher is a match-three game for Pebble smart-watches where you swap neighbouring rocks to get at least three of the same type in a row.
 
-![Rock Crusher]({{ site.baseurl }}/img/rc_1.png)
+{% include tube.html id=page.youtubeId %}
 
 ## Rock Crusher
 
 Match-three games are a fun coding exercise and trying to invent novel special moves leads to interesting emergent game play effects as different combos interact with each other.
 
 Rock crusher utilises the Pebble's accelerometer as an input method which works well as a cursor to select squares on the grid and indicate the direction to swap. A difficulty curve is obtained in two ways, first the number of pieces in play increases every few levels up to 8 in level 12 and above. Second, the points required to go up a level increase exponentially (115% of the previous level's requirement) whereas the point bonus gained from special moves scales multiplicatively with the level and points from basic moves (match-3 and match-4) only scale additively, soon making them contribute very little.
+
+![Rock Crusher]({{ site.baseurl }}/img/rc_1.png)
 
 Controls:
  * Move the cursor with the _right_ and _down_ buttons, or _tilt_ your wrist.
